@@ -1,4 +1,4 @@
-@media (max-width: 980px ){
+@media (max-width: 900px ){
     .blogs-main-new {
         grid-template-columns: 1fr;
         grid-template-rows: 3fr;
@@ -10,7 +10,7 @@
         grid-column: 1;
         grid-row: 3;
     }
-    blogs-posts-container .post-container{
+    .blogs-posts-container .post-container{
         max-width: 45%;
     }
     .proyects-main-container{
@@ -24,7 +24,5 @@
 
 
 @media (max-width: 600px) {
-    .blogs-posts-container .post-container {
-         max-width: 95%;
-    }
+    .blogs-posts-container .post-container { max-width: 95%; }
 }
